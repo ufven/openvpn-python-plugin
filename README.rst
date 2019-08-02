@@ -123,3 +123,8 @@ service, e.g.:
   EOF
   # systemctl daemon-reload
   # systemctl restart openvpn-server@example
+
+Support
+=======
+
+For support, please visit https://github.com/ufven/openvpn-python-plugin
