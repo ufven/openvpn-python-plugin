@@ -19,6 +19,7 @@ To build, you will need to configure the sources, e.g.:
 
 .. code-block:: console
 
+  $ autoreconf -i
   $ ./configure --prefix=/usr
 
 If OpenVPN is installed in a non-default location, the plugin directory can be
