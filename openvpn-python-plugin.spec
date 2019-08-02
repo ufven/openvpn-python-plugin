@@ -1,5 +1,5 @@
 Name:           openvpn-python-plugin
-Version:        1.0.0
+Version:        1.0.1
 Release:        1%{?dist}
 Summary:        OpenVPN Python plugin
 
@@ -44,5 +44,8 @@ An OpenVPN plugin that allows for handling events in Python (devel.)
 %{_libdir}/openvpn/plugins/openvpn-python-plugin.la
 
 %changelog
+* Mon Jul 29 2019 Daniel Uvehag <daniel.uvehag@gmail.com> - 1.0.1-1
+- Update to version 1.0.1
+
 * Mon Jul 29 2019 Daniel Uvehag <daniel.uvehag@gmail.com> - 1.0.0-1
 - Initial package
