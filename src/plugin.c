@@ -48,8 +48,9 @@ array_to_pylist(const char **array) {
 
     if (NULL != (pList = PyList_New(0))) {
         size_t length = array_length(array);
+        size_t i;
 
-        for (size_t i = 0; i < length; i++) {
+        for (i = 0; i < length; i++) {
             PyObject *pValue = PyUnicode_FromString(array[i]);
 
             if (-1 == PyList_Append(pList, pValue)) {
@@ -86,8 +87,9 @@ array_to_pydict(const char **array, const char *delim) {
 
     if (NULL != (pDict = PyDict_New())) {
         size_t length = array_length(array);
+        size_t i;
 
-        for (size_t i = 0; i < length; i++) {
+        for (i = 0; i < length; i++) {
             char *p = strchr(array[i], *delim);
             PyObject *pKey, *pValue;
 

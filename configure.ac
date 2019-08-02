@@ -1,4 +1,4 @@
-AC_INIT([openvpn-python-plugin], [1.0.1], [daniel.uvehag@gmail.com])
+AC_INIT([openvpn-python-plugin], [1.0.2], [daniel.uvehag@gmail.com])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 
 AM_PROG_AR
